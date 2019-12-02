@@ -10,7 +10,6 @@ Como instalar o projeto:
 2 - composer install <br/>
 3 - Criar e configurar banco de dados (DB)  <br/>
 3.1 - editar arquivo .env <br/>
-3.2 - editar arquivo .env.testing <br/>
 4 - php artisan migrate --seed <br/>
 5 - php artisan serve <br/>
 
