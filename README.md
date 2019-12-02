@@ -6,12 +6,12 @@ Utilizados:
 
 Como instalar o projeto:
 
-1 - Git clone https://github.com/ishida-ricardo/desafio.git <br/>
-2 - composer install <br/>
+1 - Executar: git clone https://github.com/ishida-ricardo/desafio.git <br/>
+2 - Executar: composer install <br/>
 3 - Criar e configurar banco de dados (DB)  <br/>
 3.1 - editar arquivo .env <br/>
-4 - php artisan migrate --seed <br/>
-5 - php artisan serve <br/>
+4 - Executar: php artisan migrate --seed <br/>
+5 - Executar: php artisan serve <br/>
 
 Como utilizar a api:
 
@@ -31,4 +31,4 @@ Executar testes automatizados:
 
 1 - Criar e configurar banco de dados (DB)  <br/>
 1.1 - editar arquivo .env.testing <br/>
-2 - vendor\bin\phpunit <br/>
+2 - Executar: vendor\bin\phpunit <br/>
