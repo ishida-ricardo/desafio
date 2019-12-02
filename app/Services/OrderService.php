@@ -28,7 +28,7 @@ class OrderService
         try {
             $orderData = $request->only(['status', 'total', 'created_at']);
             $orderData['customer_id'] = $request->input('buyer.id');
-            $order = Order::create($orderData);
+            $order = $this->model->create($orderData);
 
             $totalOrder = 0;
             foreach($request->items as $i) {

@@ -1,4 +1,5 @@
 Utilizados:
+- Composer
 - Laravel 6.*
 - MySQL 
 - PHPUnit
